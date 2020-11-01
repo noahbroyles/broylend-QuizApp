@@ -1,0 +1,44 @@
+body {
+    background-color: #282828;
+    color: #faebd7;
+}
+
+h1 {
+    font-size: 35pt;
+    text-align: center;
+    font-family: cursive
+}
+
+#quiz-form {
+    width: 50%;
+    position: fixed;
+    height: 50%;
+    margin-left: 25%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 22pt;
+}
+label {
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: .5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    border: none;
+    padding: 1em 2em 1em 2em;
+    cursor: pointer
+}
+
+p { 
+    font-size: 14pt;
+    color: black;
+}
