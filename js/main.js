@@ -25,14 +25,7 @@ class Quiz {
         this.incorrectAnswers = 0;
     }
 
-    take() { 
-        // for (let q in this.questions) {
-        //     document.getElementById('current-question').innerHTML = q;
-        //     for (let answer in this.questions[q]) {
-        //         document.getElementById('quiz-form').innerHTML += `<input type="radio" value="${this.questions[q][answer]}">`;
-        //     }
-        //     document.getElementById('quiz-form').onsubmit = checkQuiz;
-        // }
+    take() {
         // clear the answer section
         document.getElementById("answer-section").innerHTML = "";
 
@@ -73,11 +66,6 @@ function submitQuestion () {
         q.incorrectAnswers += 1;
     }
     q.nextQuestion();
-    return false;
-}
-
-function checkQuiz() {
-    // pass
     return false;
 }
 
