@@ -84,7 +84,7 @@ window.onload = function() {
         "What is 7 * 6?": {0:"46", 1:"67", "correct":"42", 2:"76"},
         "How many times does 1 go into 8?": {0:"81", 1:"18", 2:"6", "correct":"8"},
         "Is the square root of 42 a whole number?": {0:"yes", "correct":"no", 1:"Maybe So"},
-        "Why is 1764 special?": {"correct":"Because its the square of 42", 0:"Because it's prime", 1:"Because it's over 1000"}
+        "Why is 1764 special?": {"correct":"Because it's the square of 42", 0:"Because it's prime", 1:"Because it's over 1000"}
     }
     q = new Quiz(questions);
     q.take(); // start the quiz
